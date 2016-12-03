@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '2'
+VERSION = "1"
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -224,32 +224,13 @@ function create_config( )
     "invite",
     "autoaddersudo",
     "id",
-    "admin"
+    "admin",
+"supergroups"
     },
-    sudo_users = {255317894},--Sudo users
+    sudo_users = {299362763},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[spammer-bot
-An advance Administration bot based on teleseed 
-spammer bot open sourced to:
-[source spammer bot](https://github.com/3pehrdev/spammer-bot)
-
-developed and founded
-By
-[blacklife admin](telegram.me/joker_admin_1)
-my chanell
-[chanell blacklifeTM](telegram.me/blacklifech)
-
- thanks to:
-mobin
---
---
---
-
-special thanks to
-blacklifeTm
-teleseedTm
-]],
+    about_text = [[spammerbot]],
     help_text_realm = [[
 Realm Commands:
 
