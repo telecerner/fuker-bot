@@ -217,23 +217,19 @@ function create_config( )
     "inrealm",
     "ingroup",
     "inpm",
-    "banhammer",
     "stats",
-    "anti_spam",
     "owners",
-    "arabic_lock",
     "set",
-    "pl",
+    "plugins",
     "get",
     "broadcast",
     "invite",
     "all",
-    "leave_ban",
-	"supergroup+",
+	"supergroup",
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {211673096},--Sudo users
+    sudo_users = {ادی عددیت بز کونی},--Sudo users
     moderation = {data = 'data/moderation.json'},
     help_text_realm = [[
 Realm Commands:
